@@ -1,86 +1,61 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Ethan Shaw's CV
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Ethan Shaw
+Data Science Major, Student
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="ethanshaw707@gmail.org">ethanshaw707@gmail.org</a>
 </div>
 
 
 ## Currently
 
-Standing on the shoulders of giants
+Junior studying at BYU-Idaho
 
 ### Specialized in
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+Coding, Machine Learning, Data Science, Excel
 
 
 ### Research interests
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
+AI, Machine Learning, Buisness Analytics
 
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
+`2021-2022`
+__BYU-Idaho__
+-Data Science Student
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+`2024 - Current`
+__BYU-Idaho__
 
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
-
-
+- Data Science Student
 
 ## Awards
 
-`2012`
-President, *Royal Society*, London, UK
+`2020-Current`
+Maintained 4.0 G.P.A. throughout university
 
-Associate, *French Academy of Science*, Paris, France
+Salutatorian, *Compass Honors High School*, Meridian, Idaho
 
+## Occupations
 
+`2020-21`
+__Mayberry Corner__, Meridian, Idaho
 
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+- Managed Shipment of Packages
+- Streamlined operations by improving warehouse organization and inventory tracking
+-Implemented quality control measures to prevent package damage and ensure customer satisfaction
 
 
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
+`2019`
+__Painter__, 
+- Worked in painting projects, including preparation, application, and finishing techniques
+- Maintained saftey standards and utilized scaffolding for complex tasks
 
 
 

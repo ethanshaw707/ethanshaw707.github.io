@@ -16,7 +16,7 @@ Junior studying at BYU-Idaho
 
 ### Specialized in
 
-Coding, Machine Learning, Data Science, Excel
+Coding, Machine Learning, Data Science, Excel, Spanish
 
 
 ### Research interests
@@ -38,11 +38,17 @@ __BYU-Idaho__
 ## Awards
 
 `2020-Current`
-Maintained 4.0 G.P.A. throughout university
+-Maintained 4.0 G.P.A. throughout university, BYU-Idaho
 
-Salutatorian, *Compass Honors High School*, Meridian, Idaho
+-Salutatorian, *Compass Honors High School*, Meridian, Idaho
 
 ## Occupations
+
+`2022`
+__Swim Instructor__, Meridian, Idaho
+
+- Taught people of all ages how to swim
+- Learned and developed learning techniques to enhance engagment and learning of my students
 
 `2020-21`
 __Mayberry Corner__, Meridian, Idaho
@@ -59,6 +65,7 @@ __Painter__,
 
 
 
+
 <!-- ### Footer
 
-Last updated: May 2013 -->
+Last updated: Abril 2025 -->

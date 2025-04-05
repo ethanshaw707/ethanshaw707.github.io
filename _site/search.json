@@ -144,9 +144,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About me",
+    "title": "About Me",
     "section": "",
-    "text": "MarkDown Basics"
+    "text": "Welcome to my portfolio! Below, you’ll find links to different sections of my work, each showcasing my skills, experience, and projects.\n\n\nA detailed overview of my professional background, including education, skills, certifications, and work experience.\n\n\n\nExplore my data cleansing projects, where I demonstrate my ability to clean and preprocess raw data for analysis.\n\n\n\nDive into my exploratory data analysis projects, showcasing insights derived from datasets through visualization and statistical techniques.\n\n\n\nDiscover my machine learning projects, highlighting predictive modeling, classification, and regression techniques.\n\n\n\nLearn how I use data storytelling to communicate insights effectively through visualizations and narratives.\n\n\n\nCheck out my work on data science competitions, where I apply advanced techniques to solve real-world problems.\nFeel free to explore each section to learn more about my journey and expertise in data science! MarkDown Basics"
   },
   {
     "objectID": "index.html#title-2-header",
@@ -277,7 +277,7 @@
     "href": "resume.html",
     "title": "Ethan Shaw’s CV",
     "section": "",
-    "text": "Data Science Major, Student\n\nethanshaw707@gmail.org\n Meridian, Idaho 83646\n (208) 509-6038\n\n\n\n\nDetail-oriented Data Science student with strong analytical skills, technical proficiency, and a passion for financial modeling and market research. Experienced in data analysis, business strategy, and process optimization. Adept at working in fast-paced environments while maintaining high attention to detail.\n\n\n\n\n\nTechnical Skills: Financial Modeling, Excel (Pivot Tables, VLOOKUP, Macros), Market Research, KPI Tracking, Microsoft Office Suite, Data Analysis\n\nSoft Skills: Strong analytical and critical thinking, time management, organization, verbal & written communication, teamwork\n\nBusiness Acumen: Underwriting, financial analysis, data-driven decision-making, reporting\n\n\n\n\n\n\nData Analytics Certificate (In Progress)\n\n\n\n\n\n2021 – 2022\nBYU-Idaho\n- Data Science Student\n2024 – Current\nBYU-Idaho\n- Data Science Student\n- GPA: 4.0\n\n\n\nIntroduction to Databases\n\nProgramming with Classes\n\nBusiness Statistics\n\nFinancial Accounting\n\nMicro & Macro Economics\n\n\n\n\n\n\n2022\nSwim Instructor, Meridian, Idaho\n- Taught people of all ages how to swim\n- Developed and applied learning techniques to improve student engagement and progress\n2020 – 2021\nShipping Manager, Mayberry Corner — Meridian, ID\n- Managed outgoing package shipments and logistics\n- Streamlined warehouse operations and inventory tracking\n- Implemented quality control measures to improve customer satisfaction\n2019\nPainter, Innovative Tech Solutions — Boise, ID\n- Executed detailed painting projects, including surface prep and finish work\n- Maintained safety protocols and used scaffolding for elevated tasks\n\n\n\n\n2020 – Current\n- Maintained 4.0 G.P.A. throughout university, BYU-Idaho\n- Salutatorian, Compass Honors High School, Meridian, Idaho"
+    "text": "Data Science Major, Student\n\nethanshaw707@gmail.org\n Meridian, Idaho 83646\n (208) 509-6038\n\n\n\n\nDetail-oriented Data Science student with strong analytical skills, technical proficiency, and a passion for financial modeling and market research. Experienced in data analysis, business strategy, and process optimization. Adept at working in fast-paced environments while maintaining high attention to detail.\n\n\n\n\n\nTechnical Skills: Financial Modeling, Excel (Pivot Tables, VLOOKUP, Macros), Market Research, Microsoft Office Suite, Data Analysis\n\nSoft Skills: Strong analytical and critical thinking, time management, organization, verbal & written communication, teamwork\n\nBusiness Acumen: Underwriting, financial analysis, data-driven decision-making, reporting\n\n\n\n\n\n\nData Analytics Certificate (In Progress)\n\n\n\n\n\n2021 – 2022\nBYU-Idaho\n- Data Science Student\n2024 – Current\nBYU-Idaho\n- Data Science Student\n- GPA: 4.0\n\n\n\nIntroduction to Databases\n\nProgramming with Classes\n\nBusiness Statistics\n\nFinancial Accounting\n\nData Warehousing\nData Science Programming\n\n\n\n\n\n\n2022\nSwim Instructor, Meridian, Idaho\n- Taught people of all ages how to swim\n- Developed and applied learning techniques to improve student engagement and progress\n2020 – 2021\nShipping Manager, Mayberry Corner — Meridian, ID\n- Managed outgoing package shipments and logistics\n- Streamlined warehouse operations and inventory tracking\n- Implemented quality control measures to improve customer satisfaction\n2019\nPainter, Innovative Tech Solutions — Boise, ID\n- Executed detailed painting projects, including surface prep and finish work\n- Maintained safety protocols and used scaffolding for elevated tasks\n\n\n\n\n2020 – Current\n- Maintained 4.0 G.P.A. throughout university, BYU-Idaho\n- Salutatorian, Compass Honors High School, Meridian, Idaho"
   },
   {
     "objectID": "resume.html#currently",
@@ -291,7 +291,7 @@
     "href": "resume.html#education",
     "title": "Ethan Shaw’s CV",
     "section": "",
-    "text": "2021 – 2022\nBYU-Idaho\n- Data Science Student\n2024 – Current\nBYU-Idaho\n- Data Science Student\n- GPA: 4.0\n\n\n\nIntroduction to Databases\n\nProgramming with Classes\n\nBusiness Statistics\n\nFinancial Accounting\n\nMicro & Macro Economics"
+    "text": "2021 – 2022\nBYU-Idaho\n- Data Science Student\n2024 – Current\nBYU-Idaho\n- Data Science Student\n- GPA: 4.0\n\n\n\nIntroduction to Databases\n\nProgramming with Classes\n\nBusiness Statistics\n\nFinancial Accounting\n\nData Warehousing\nData Science Programming"
   },
   {
     "objectID": "resume.html#awards",
@@ -497,7 +497,7 @@
     "href": "resume.html#skills-competencies",
     "title": "Ethan Shaw’s CV",
     "section": "",
-    "text": "Technical Skills: Financial Modeling, Excel (Pivot Tables, VLOOKUP, Macros), Market Research, KPI Tracking, Microsoft Office Suite, Data Analysis\n\nSoft Skills: Strong analytical and critical thinking, time management, organization, verbal & written communication, teamwork\n\nBusiness Acumen: Underwriting, financial analysis, data-driven decision-making, reporting"
+    "text": "Technical Skills: Financial Modeling, Excel (Pivot Tables, VLOOKUP, Macros), Market Research, Microsoft Office Suite, Data Analysis\n\nSoft Skills: Strong analytical and critical thinking, time management, organization, verbal & written communication, teamwork\n\nBusiness Acumen: Underwriting, financial analysis, data-driven decision-making, reporting"
   },
   {
     "objectID": "resume.html#certifications",
@@ -516,8 +516,8 @@
   {
     "objectID": "index.html#data-science-portfolio",
     "href": "index.html#data-science-portfolio",
-    "title": "About me",
+    "title": "About Me",
     "section": "",
-    "text": "MarkDown Basics"
+    "text": "Welcome to my portfolio! Below, you’ll find links to different sections of my work, each showcasing my skills, experience, and projects.\n\n\nA detailed overview of my professional background, including education, skills, certifications, and work experience.\n\n\n\nExplore my data cleansing projects, where I demonstrate my ability to clean and preprocess raw data for analysis.\n\n\n\nDive into my exploratory data analysis projects, showcasing insights derived from datasets through visualization and statistical techniques.\n\n\n\nDiscover my machine learning projects, highlighting predictive modeling, classification, and regression techniques.\n\n\n\nLearn how I use data storytelling to communicate insights effectively through visualizations and narratives.\n\n\n\nCheck out my work on data science competitions, where I apply advanced techniques to solve real-world problems.\nFeel free to explore each section to learn more about my journey and expertise in data science! MarkDown Basics"
   }
 ]

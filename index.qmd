@@ -1,10 +1,30 @@
 ---
-title: "About me"
+title: "About Me"
 subtitle: "My name is Ethan Shaw and this is my data science portfolio"
-# use quarto markdown to 
 ---
 
 # Data Science Student
 ## Data Science Portfolio
 
+Welcome to my portfolio! Below, you'll find links to different sections of my work, each showcasing my skills, experience, and projects.
+
+### [Resume](resume.qmd)
+A detailed overview of my professional background, including education, skills, certifications, and work experience.
+
+### [Cleansing Projects](cleansing.qmd)
+Explore my data cleansing projects, where I demonstrate my ability to clean and preprocess raw data for analysis.
+
+### [Exploration Projects](exploration.qmd)
+Dive into my exploratory data analysis projects, showcasing insights derived from datasets through visualization and statistical techniques.
+
+### [Machine Learning](machine_learning.qmd)
+Discover my machine learning projects, highlighting predictive modeling, classification, and regression techniques.
+
+### [Storytelling](story_telling.qmd)
+Learn how I use data storytelling to communicate insights effectively through visualizations and narratives.
+
+### [Competition Projects](competition.qmd)
+Check out my work on data science competitions, where I apply advanced techniques to solve real-world problems.
+
+Feel free to explore each section to learn more about my journey and expertise in data science!
 [MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)

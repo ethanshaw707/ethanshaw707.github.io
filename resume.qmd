@@ -2,70 +2,89 @@
 layout: cv
 title: Ethan Shaw's CV
 ---
+
 # Ethan Shaw
 Data Science Major, Student
 
 <div id="webaddress">
-<a href="ethanshaw707@gmail.org">ethanshaw707@gmail.org</a>
+<a href="ethanshaw707@gmail.org">ethanshaw707@gmail.org</a>  
+<br>
+Meridian, Idaho 83646  
+<br>
+(208) 509-6038  
 </div>
 
+---
 
-## Currently
+## Professional Summary
 
-Junior studying at BYU-Idaho
+Detail-oriented Data Science student with strong analytical skills, technical proficiency, and a passion for financial modeling and market research. Experienced in data analysis, business strategy, and process optimization. Adept at working in fast-paced environments while maintaining high attention to detail.
 
-### Specialized in
+---
 
-Coding, Machine Learning, Data Science, Excel, Spanish
+## Skills & Competencies
 
+- **Technical Skills:** Financial Modeling, Excel (Pivot Tables, VLOOKUP, Macros), Market Research, KPI Tracking, Microsoft Office Suite, Data Analysis  
+- **Soft Skills:** Strong analytical and critical thinking, time management, organization, verbal & written communication, teamwork  
+- **Business Acumen:** Underwriting, financial analysis, data-driven decision-making, reporting  
 
-### Research interests
+---
 
-AI, Machine Learning, Buisness Analytics
+## Certifications
 
+- Data Analytics Certificate (In Progress)
+
+---
 
 ## Education
 
-`2021-2022`
-__BYU-Idaho__
--Data Science Student
-
-`2024 - Current`
-__BYU-Idaho__
-
+`2021 – 2022`  
+__BYU-Idaho__  
 - Data Science Student
+
+`2024 – Current`  
+__BYU-Idaho__  
+- Data Science Student  
+- GPA: 4.0
+
+### Relevant Coursework
+
+- Introduction to Databases  
+- Programming with Classes  
+- Business Statistics  
+- Financial Accounting  
+- Micro & Macro Economics
+
+---
+
+## Experience
+
+`2022`  
+__Swim Instructor__, Meridian, Idaho  
+- Taught people of all ages how to swim  
+- Developed and applied learning techniques to improve student engagement and progress  
+
+`2020 – 2021`  
+__Shipping Manager__, Mayberry Corner — Meridian, ID  
+- Managed outgoing package shipments and logistics  
+- Streamlined warehouse operations and inventory tracking  
+- Implemented quality control measures to improve customer satisfaction
+
+`2019`  
+__Painter__, Innovative Tech Solutions — Boise, ID  
+- Executed detailed painting projects, including surface prep and finish work  
+- Maintained safety protocols and used scaffolding for elevated tasks
+
+---
 
 ## Awards
 
-`2020-Current`
--Maintained 4.0 G.P.A. throughout university, BYU-Idaho
+`2020 – Current`  
+- Maintained 4.0 G.P.A. throughout university, BYU-Idaho  
+- Salutatorian, *Compass Honors High School*, Meridian, Idaho
 
--Salutatorian, *Compass Honors High School*, Meridian, Idaho
-
-## Occupations
-
-`2022`
-__Swim Instructor__, Meridian, Idaho
-
-- Taught people of all ages how to swim
-- Learned and developed learning techniques to enhance engagment and learning of my students
-
-`2020-21`
-__Mayberry Corner__, Meridian, Idaho
-
-- Managed Shipment of Packages
-- Streamlined operations by improving warehouse organization and inventory tracking
--Implemented quality control measures to prevent package damage and ensure customer satisfaction
-
-
-`2019`
-__Painter__, 
-- Worked in painting projects, including preparation, application, and finishing techniques
-- Maintained saftey standards and utilized scaffolding for complex tasks
-
-
-
+---
 
 <!-- ### Footer
 
-Last updated: Abril 2025 -->
+Last updated: April 2025 -->

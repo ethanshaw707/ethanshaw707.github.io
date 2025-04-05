@@ -292,14 +292,14 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "about me",
+    "title": "About me",
     "section": "",
     "text": "MarkDown Basics"
   },
   {
-    "objectID": "index.html#title-2-header",
-    "href": "index.html#title-2-header",
-    "title": "about me",
+    "objectID": "index.html#data-science-portfolio",
+    "href": "index.html#data-science-portfolio",
+    "title": "About me",
     "section": "",
     "text": "MarkDown Basics"
   },
@@ -426,35 +426,49 @@
     "href": "resume.html",
     "title": "Ethan Shaw’s CV",
     "section": "",
-    "text": "Data Science Major, Student\n\nethanshaw707@gmail.org\n\n\n\nJunior studying at BYU-Idaho\n\n\nCoding, Machine Learning, Data Science, Excel, Spanish\n\n\n\nAI, Machine Learning, Buisness Analytics\n\n\n\n\n2021-2022 BYU-Idaho -Data Science Student\n2024 - Current BYU-Idaho\n\nData Science Student\n\n\n\n\n2020-Current -Maintained 4.0 G.P.A. throughout university, BYU-Idaho\n-Salutatorian, Compass Honors High School, Meridian, Idaho\n\n\n\n2022 Swim Instructor, Meridian, Idaho\n\nTaught people of all ages how to swim\nLearned and developed learning techniques to enhance engagment and learning of my students\n\n2020-21 Mayberry Corner, Meridian, Idaho\n\nManaged Shipment of Packages\nStreamlined operations by improving warehouse organization and inventory tracking -Implemented quality control measures to prevent package damage and ensure customer satisfaction\n\n2019 Painter, - Worked in painting projects, including preparation, application, and finishing techniques - Maintained saftey standards and utilized scaffolding for complex tasks"
+    "text": "Data Science Major, Student\n\nethanshaw707@gmail.org\n Meridian, Idaho 83646\n (208) 509-6038\n\n\n\n\nDetail-oriented Data Science student with strong analytical skills, technical proficiency, and a passion for financial modeling and market research. Experienced in data analysis, business strategy, and process optimization. Adept at working in fast-paced environments while maintaining high attention to detail.\n\n\n\n\n\nTechnical Skills: Financial Modeling, Excel (Pivot Tables, VLOOKUP, Macros), Market Research, Microsoft Office Suite, Data Analysis\n\nSoft Skills: Strong analytical and critical thinking, time management, organization, verbal & written communication, teamwork\n\nBusiness Acumen: Underwriting, financial analysis, data-driven decision-making, reporting\n\n\n\n\n\n\nData Analytics Certificate (In Progress)\n\n\n\n\n\n2021 – 2022\nBYU-Idaho\n- Data Science Student\n2024 – Current\nBYU-Idaho\n- Data Science Student\n- GPA: 4.0\n\n\n\nIntroduction to Databases\n\nProgramming with Classes\n\nBusiness Statistics\n\nFinancial Accounting\n\nMicro & Macro Economics\n\n\n\n\n\n\n2022\nSwim Instructor, Meridian, Idaho\n- Taught people of all ages how to swim\n- Developed and applied learning techniques to improve student engagement and progress\n2020 – 2021\nShipping Manager, Mayberry Corner — Meridian, ID\n- Managed outgoing package shipments and logistics\n- Streamlined warehouse operations and inventory tracking\n- Implemented quality control measures to improve customer satisfaction\n2019\nPainter, Innovative Tech Solutions — Boise, ID\n- Executed detailed painting projects, including surface prep and finish work\n- Maintained safety protocols and used scaffolding for elevated tasks\n\n\n\n\n2020 – Current\n- Maintained 4.0 G.P.A. throughout university, BYU-Idaho\n- Salutatorian, Compass Honors High School, Meridian, Idaho"
   },
   {
-    "objectID": "resume.html#currently",
-    "href": "resume.html#currently",
+    "objectID": "resume.html#professional-summary",
+    "href": "resume.html#professional-summary",
     "title": "Ethan Shaw’s CV",
     "section": "",
-    "text": "Junior studying at BYU-Idaho\n\n\nCoding, Machine Learning, Data Science, Excel, Spanish\n\n\n\nAI, Machine Learning, Buisness Analytics"
+    "text": "Detail-oriented Data Science student with strong analytical skills, technical proficiency, and a passion for financial modeling and market research. Experienced in data analysis, business strategy, and process optimization. Adept at working in fast-paced environments while maintaining high attention to detail."
+  },
+  {
+    "objectID": "resume.html#skills-competencies",
+    "href": "resume.html#skills-competencies",
+    "title": "Ethan Shaw’s CV",
+    "section": "",
+    "text": "Technical Skills: Financial Modeling, Excel (Pivot Tables, VLOOKUP, Macros), Market Research, Microsoft Office Suite, Data Analysis\n\nSoft Skills: Strong analytical and critical thinking, time management, organization, verbal & written communication, teamwork\n\nBusiness Acumen: Underwriting, financial analysis, data-driven decision-making, reporting"
+  },
+  {
+    "objectID": "resume.html#certifications",
+    "href": "resume.html#certifications",
+    "title": "Ethan Shaw’s CV",
+    "section": "",
+    "text": "Data Analytics Certificate (In Progress)"
   },
   {
     "objectID": "resume.html#education",
     "href": "resume.html#education",
     "title": "Ethan Shaw’s CV",
     "section": "",
-    "text": "2021-2022 BYU-Idaho -Data Science Student\n2024 - Current BYU-Idaho\n\nData Science Student"
+    "text": "2021 – 2022\nBYU-Idaho\n- Data Science Student\n2024 – Current\nBYU-Idaho\n- Data Science Student\n- GPA: 4.0\n\n\n\nIntroduction to Databases\n\nProgramming with Classes\n\nBusiness Statistics\n\nFinancial Accounting\n\nMicro & Macro Economics"
+  },
+  {
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Ethan Shaw’s CV",
+    "section": "",
+    "text": "2022\nSwim Instructor, Meridian, Idaho\n- Taught people of all ages how to swim\n- Developed and applied learning techniques to improve student engagement and progress\n2020 – 2021\nShipping Manager, Mayberry Corner — Meridian, ID\n- Managed outgoing package shipments and logistics\n- Streamlined warehouse operations and inventory tracking\n- Implemented quality control measures to improve customer satisfaction\n2019\nPainter, Innovative Tech Solutions — Boise, ID\n- Executed detailed painting projects, including surface prep and finish work\n- Maintained safety protocols and used scaffolding for elevated tasks"
   },
   {
     "objectID": "resume.html#awards",
     "href": "resume.html#awards",
     "title": "Ethan Shaw’s CV",
     "section": "",
-    "text": "2020-Current -Maintained 4.0 G.P.A. throughout university, BYU-Idaho\n-Salutatorian, Compass Honors High School, Meridian, Idaho"
-  },
-  {
-    "objectID": "resume.html#occupations",
-    "href": "resume.html#occupations",
-    "title": "Ethan Shaw’s CV",
-    "section": "",
-    "text": "2022 Swim Instructor, Meridian, Idaho\n\nTaught people of all ages how to swim\nLearned and developed learning techniques to enhance engagment and learning of my students\n\n2020-21 Mayberry Corner, Meridian, Idaho\n\nManaged Shipment of Packages\nStreamlined operations by improving warehouse organization and inventory tracking -Implemented quality control measures to prevent package damage and ensure customer satisfaction\n\n2019 Painter, - Worked in painting projects, including preparation, application, and finishing techniques - Maintained saftey standards and utilized scaffolding for complex tasks"
+    "text": "2020 – Current\n- Maintained 4.0 G.P.A. throughout university, BYU-Idaho\n- Salutatorian, Compass Honors High School, Meridian, Idaho"
   },
   {
     "objectID": "Machine_Learning/project5.html",

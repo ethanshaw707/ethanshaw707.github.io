@@ -53,7 +53,8 @@ __BYU-Idaho__
 - Programming with Classes  
 - Business Statistics  
 - Financial Accounting  
-- Micro & Macro Economics
+- Data Warehousing
+- Data Science Programming
 
 ---
 

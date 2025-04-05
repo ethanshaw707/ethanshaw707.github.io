@@ -144,7 +144,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "about me",
+    "title": "About me",
     "section": "",
     "text": "MarkDown Basics"
   },
@@ -512,5 +512,12 @@
     "title": "Ethan Shaw’s CV",
     "section": "",
     "text": "2022\nSwim Instructor, Meridian, Idaho\n- Taught people of all ages how to swim\n- Developed and applied learning techniques to improve student engagement and progress\n2020 – 2021\nShipping Manager, Mayberry Corner — Meridian, ID\n- Managed outgoing package shipments and logistics\n- Streamlined warehouse operations and inventory tracking\n- Implemented quality control measures to improve customer satisfaction\n2019\nPainter, Innovative Tech Solutions — Boise, ID\n- Executed detailed painting projects, including surface prep and finish work\n- Maintained safety protocols and used scaffolding for elevated tasks"
+  },
+  {
+    "objectID": "index.html#data-science-portfolio",
+    "href": "index.html#data-science-portfolio",
+    "title": "About me",
+    "section": "",
+    "text": "MarkDown Basics"
   }
 ]

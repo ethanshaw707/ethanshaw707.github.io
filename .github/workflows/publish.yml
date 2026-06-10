@@ -28,7 +28,6 @@ jobs:
           cp *.css _deploy/
           cp script.js _deploy/
           cp ethan-profile.jpeg _deploy/
-          cp Ethan_Shaw_Resume.docx _deploy/
           cp outputs/dashboard.html _deploy/outputs/
           touch _deploy/.nojekyll
 

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modeling the Costs of Incorrect Demand Predictions — Ethan Shaw</title>
+  <meta name="description" content="A practical way to think about the business cost of demand forecast errors, including stockouts, excess inventory, cash flow, and service levels." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="blog.css" />
+</head>
+<body>
+  <div class="bg-gradient"></div>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-bracket">&lt;</span>ES<span class="logo-bracket">/&gt;</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#experience">Experience</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="resume.html">Résumé</a></li>
+      <li><a href="blog.html" class="active">Blog</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="post-page">
+    <a href="blog.html" class="post-back">
+      <i class="fas fa-arrow-left"></i> All posts
+    </a>
+
+    <header class="post-header">
+      <div class="post-meta-top">
+        <span class="blog-tag">Forecasting</span>
+        <span class="blog-tag-secondary">Inventory</span>
+      </div>
+      <h1 class="post-title">Modeling the Costs of Incorrect Demand Predictions</h1>
+      <div class="post-byline">
+        <div class="post-author">
+          <img src="ethan-profile.jpeg" alt="Ethan Shaw" />
+          <div>
+            <strong>Ethan Shaw</strong>
+            <span>BYU–Idaho · Data Science</span>
+          </div>
+        </div>
+        <div class="post-meta-stats">
+          <span><i class="far fa-calendar"></i> June 2026</span>
+          <span><i class="far fa-clock"></i> 5 min read</span>
+        </div>
+      </div>
+    </header>
+
+    <article class="post-body">
+      <p class="post-lead">
+        A demand forecast is only useful if it improves a decision. In e-commerce, the most
+        important question is often not whether the forecast was mathematically perfect. It
+        is whether the forecast helped the business avoid expensive inventory mistakes.
+      </p>
+
+      <p>
+        Incorrect predictions usually create two different kinds of cost. If the model
+        underpredicts demand, the business may run out of inventory and lose sales. If the
+        model overpredicts demand, the business may buy too much inventory and trap cash in
+        products that move slowly. Both errors matter, but they do not always cost the same.
+      </p>
+
+      <h2>Forecast Error Is Not Just a Number</h2>
+
+      <p>
+        Common model metrics like MAE, RMSE, or MAPE are useful, but they do not fully
+        describe the business impact. A model that is off by 20 units on a high-margin best
+        seller may be much more expensive than a model that is off by 20 units on a slow,
+        low-margin product.
+      </p>
+
+      <p>
+        That is why I like thinking about demand prediction as a cost model. Instead of only
+        asking, "How wrong was the forecast?", I want to ask, "What did that error cause the
+        business to do?"
+      </p>
+
+      <h2>The Cost of Underprediction</h2>
+
+      <p>
+        Underprediction happens when actual demand is higher than forecasted demand. The
+        most obvious cost is lost revenue from stockouts. If a store sells out of a product
+        while customers still want it, every missed order is a direct revenue opportunity
+        that disappeared.
+      </p>
+
+      <p>
+        But stockouts can also create softer costs. Customers may switch to a competitor.
+        Advertising spend may become less efficient because traffic is landing on unavailable
+        products. A marketplace listing may lose momentum if sales velocity drops. The
+        product may even lose ranking in search results.
+      </p>
+
+      <p>
+        A basic underprediction cost can be estimated like this:
+      </p>
+
+      <blockquote class="post-quote">
+        Stockout cost = missed units x contribution margin per unit
+      </blockquote>
+
+      <p>
+        In a more advanced model, I would also consider customer lifetime value, marketplace
+        ranking effects, and the time required to recover after inventory arrives again.
+      </p>
+
+      <h2>The Cost of Overprediction</h2>
+
+      <p>
+        Overprediction happens when the forecast expects more demand than the business
+        actually receives. This can lead to excess inventory. That inventory may still have
+        value, but it creates a cash flow problem because money is locked inside products
+        instead of being available for marketing, payroll, new product tests, or operations.
+      </p>
+
+      <p>
+        Overprediction can also create storage costs, discounting pressure, product
+        obsolescence, and cluttered decision-making. When a small business has too many slow
+        movers, it becomes harder to know which products deserve attention.
+      </p>
+
+      <p>
+        A basic overprediction cost can be estimated like this:
+      </p>
+
+      <blockquote class="post-quote">
+        Excess cost = extra units x holding cost per unit
+      </blockquote>
+
+      <p>
+        If products are seasonal or trend-driven, the holding cost should be higher because
+        the value of the product may fall over time.
+      </p>
+
+      <h2>Why Asymmetric Costs Matter</h2>
+
+      <p>
+        In many cases, being too low and being too high are not equally bad. For a product
+        with strong margins and reliable demand, underpredicting might be worse because
+        missed sales are painful. For a product with uncertain demand or high storage costs,
+        overpredicting might be worse because excess inventory creates risk.
+      </p>
+
+      <p>
+        This is where service levels and safety stock become important. A business may
+        choose to hold more safety stock for products where stockouts are expensive and less
+        safety stock for products where excess inventory is the bigger danger.
+      </p>
+
+      <div class="post-steps">
+        <div class="post-step">
+          <span class="post-step-num">01</span>
+          <div>
+            <h3>Estimate forecast error</h3>
+            <p>Compare predicted demand to actual demand at the SKU or product-family level.</p>
+          </div>
+        </div>
+        <div class="post-step">
+          <span class="post-step-num">02</span>
+          <div>
+            <h3>Translate error into inventory action</h3>
+            <p>Determine whether the model would have ordered too much, too little, or correctly.</p>
+          </div>
+        </div>
+        <div class="post-step">
+          <span class="post-step-num">03</span>
+          <div>
+            <h3>Attach business costs</h3>
+            <p>Use margins, lead times, holding costs, and stockout assumptions to estimate impact.</p>
+          </div>
+        </div>
+      </div>
+
+      <h2>The Goal Is Better Decisions</h2>
+
+      <p>
+        The most useful demand model is not always the one with the lowest technical error.
+        It is the one that helps the business make better purchasing decisions. That means
+        evaluating models in the language of the business: missed revenue, trapped cash,
+        reorder timing, and risk.
+      </p>
+
+      <p>
+        When forecasting is connected to cost modeling, it becomes easier to choose the right
+        model, set the right safety stock, and explain why a reorder recommendation matters.
+      </p>
+    </article>
+
+    <footer class="post-footer">
+      <div class="post-share">
+        <p>Thanks for reading.</p>
+        <div class="post-share-actions">
+          <a href="blog.html" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> More posts
+          </a>
+          <a href="index.html#contact" class="btn btn-primary">
+            <i class="fas fa-envelope"></i> Get in touch
+          </a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <footer class="footer">
+    <p>Built with <span class="heart">♥</span> by Ethan Shaw — <span id="year"></span></p>
+    <p class="footer-quote">"Solve real problems. Build useful products. Improve every day."</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

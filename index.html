@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ethan Shaw — Data Scientist & Builder</title>
+  <meta name="description" content="Data Science student at BYU-Idaho building Cronk and tools at the intersection of AI, ecommerce, and analytics." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="blog.css" />
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="bg-gradient"></div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-logo">
+      <span class="logo-bracket">&lt;</span>ES<span class="logo-bracket">/&gt;</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#cronk">Cronk</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="resume.html">Résumé</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-greeting">
+        <span class="wave">👋</span>
+        <span class="typed-text">Hi, I'm</span>
+      </div>
+      <h1 class="hero-name">
+        <span class="name-letter">E</span><span class="name-letter">t</span><span class="name-letter">h</span><span class="name-letter">a</span><span class="name-letter">n</span>
+        <span class="name-space"></span>
+        <span class="name-letter">S</span><span class="name-letter">h</span><span class="name-letter">a</span><span class="name-letter">w</span>
+      </h1>
+      <div class="hero-subtitle">
+        <span class="subtitle-prefix">$</span>
+        <span class="subtitle-text" id="rotator">Data Scientist</span>
+        <span class="cursor-blink">|</span>
+      </div>
+      <p class="hero-description">
+        Building at the intersection of <span class="hl">AI</span>, <span class="hl">ecommerce</span>,
+        <span class="hl">analytics</span>, and <span class="hl">entrepreneurship</span>.
+      </p>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-value">4.0</div>
+          <div class="stat-label">GPA</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <div class="stat-value">2026</div>
+          <div class="stat-label">Graduating</div>
+        </div>
+      </div>
+      <div class="hero-cta">
+        <a href="#cronk" class="btn btn-primary">
+          <span>Explore My Work</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="resume.html" class="btn btn-secondary">
+          <i class="fas fa-file-lines"></i>
+          <span>View Résumé</span>
+        </a>
+        <a href="#contact" class="btn btn-ghost">
+          <span>Get in Touch</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section reveal">
+    <div class="section-header">
+      <span class="section-number">01</span>
+      <h2 class="section-title">About Me</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <div class="profile-photo-wrap">
+          <div class="profile-photo">
+            <img src="ethan-profile.jpeg" alt="Ethan Shaw" />
+          </div>
+          <div class="profile-photo-glow"></div>
+        </div>
+        <p class="lead">
+          I'm a <strong>Data Science student at Brigham Young University–Idaho</strong>
+          passionate about using data, software, and AI to solve real business problems.
+        </p>
+        <p>
+          Currently a <strong>Data Engineer Intern at Rich Floral</strong> in Boise, where
+          I'm building automated data pipelines and analytics tools. I didn't come from a
+          traditional coding background — I've taught myself through real projects, coursework,
+          and lots of hands-on building.
+        </p>
+        <div class="interest-pills">
+          <span class="pill"><i class="fas fa-chart-line"></i> Data Analytics</span>
+          <span class="pill"><i class="fas fa-shopping-cart"></i> Ecommerce</span>
+          <span class="pill"><i class="fas fa-robot"></i> AI / ML</span>
+          <span class="pill"><i class="fas fa-cogs"></i> Automation</span>
+          <span class="pill"><i class="fas fa-rocket"></i> Entrepreneurship</span>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="card-glow"></div>
+        <div class="card-header">
+          <div class="card-dots">
+            <span></span><span></span><span></span>
+          </div>
+          <span class="card-filename">about.json</span>
+        </div>
+        <pre class="card-code"><code><span class="t-key">"name"</span>: <span class="t-str">"Ethan Shaw"</span>,
+<span class="t-key">"role"</span>: <span class="t-str">"Data Science Student"</span>,
+<span class="t-key">"school"</span>: <span class="t-str">"BYU–Idaho"</span>,
+<span class="t-key">"gpa"</span>: <span class="t-num">4.0</span>,
+<span class="t-key">"graduating"</span>: <span class="t-str">"Dec 2026"</span>,
+<span class="t-key">"location"</span>: <span class="t-str">"Meridian, ID"</span>,
+<span class="t-key">"languages"</span>: [<span class="t-str">"English"</span>, <span class="t-str">"Spanish"</span>],
+<span class="t-key">"current_role"</span>: <span class="t-str">"Data Engineer Intern @ Rich Floral"</span>,
+<span class="t-key">"building"</span>: <span class="t-str">"Cronk"</span>,
+<span class="t-key">"powered_by"</span>: [
+  <span class="t-str">"curiosity"</span>,
+  <span class="t-str">"discipline"</span>,
+  <span class="t-str">"caffeine"</span>
+]</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cronk Section -->
+  <section id="cronk" class="section reveal">
+    <div class="section-header">
+      <span class="section-number">02</span>
+      <h2 class="section-title">Currently Building</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="cronk-hero">
+      <div class="cronk-badge">
+        <span class="pulse-dot"></span>
+        Live Project
+      </div>
+      <h3 class="cronk-title">Cronk</h3>
+      <p class="cronk-tagline">
+        A software platform for custom-product ecommerce businesses — orders, previews,
+        fulfillment, and analytics in one place.
+      </p>
+      <p class="cronk-vision">
+        Helping sellers move from disconnected manual workflows to a centralized system
+        where orders, customization data, previews, and fulfillment all work together.
+      </p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card" data-delay="0">
+        <div class="feature-icon"><i class="fas fa-box"></i></div>
+        <h4>Order Management</h4>
+        <p>Unified dashboard across Etsy, Shopify, and Amazon orders.</p>
+      </div>
+      <div class="feature-card" data-delay="100">
+        <div class="feature-icon"><i class="fas fa-link"></i></div>
+        <h4>Integrations</h4>
+        <p>Native connections to Shopify, Etsy, and Amazon platforms.</p>
+      </div>
+      <div class="feature-card" data-delay="200">
+        <div class="feature-icon"><i class="fas fa-palette"></i></div>
+        <h4>AI Previews</h4>
+        <p>AI-generated and deterministic SVG-based product previews.</p>
+      </div>
+      <div class="feature-card" data-delay="300">
+        <div class="feature-icon"><i class="fas fa-tag"></i></div>
+        <h4>Fulfillment</h4>
+        <p>Automated label creation and workflow orchestration.</p>
+      </div>
+      <div class="feature-card" data-delay="400">
+        <div class="feature-icon"><i class="fas fa-chart-bar"></i></div>
+        <h4>Analytics</h4>
+        <p>Business dashboards and AI-powered data insights.</p>
+      </div>
+      <div class="feature-card" data-delay="500">
+        <div class="feature-icon"><i class="fas fa-magic"></i></div>
+        <h4>Foundry</h4>
+        <p>Customer-facing product customization product.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section reveal">
+    <div class="section-header">
+      <span class="section-number">03</span>
+      <h2 class="section-title">Experience</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-marker">
+          <div class="timeline-dot"></div>
+          <div class="timeline-line"></div>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <span class="timeline-tag current">Current</span>
+            <span class="timeline-date">May 2025 — Present</span>
+          </div>
+          <h3>Data Engineer Intern</h3>
+          <h4>Rich Floral · Boise, ID</h4>
+          <ul class="timeline-bullets">
+            <li>Engineered automated data ingestion pipelines, migrating legacy Excel-based workflows into <strong>AWS DynamoDB</strong> for improved data accessibility and reliability.</li>
+            <li>Developed Python-based visualizations and analytics tools that enhanced operational transparency and supported data-driven decision-making.</li>
+            <li>Collaborated with stakeholders to write user stories and define technical requirements, strengthening cross-team communication.</li>
+            <li>Identified process bottlenecks and proposed technical solutions — taking ownership beyond the assigned scope.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker">
+          <div class="timeline-dot"></div>
+          <div class="timeline-line"></div>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <span class="timeline-date">May 2020 — Sept 2021</span>
+          </div>
+          <h3>Shipping Manager</h3>
+          <h4>Mayberry Corner · Meridian, ID</h4>
+          <ul class="timeline-bullets">
+            <li>Increased shipping efficiency by <strong>20%</strong> through workflow automation and process redesign.</li>
+            <li>Reduced material and packaging costs by <strong>~20%</strong> via smarter procurement and operational planning.</li>
+            <li>Led quality control to ensure consistent customer satisfaction and timely fulfillment.</li>
+            <li>Trained and coordinated team members to improve communication and reduce fulfillment errors.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker">
+          <div class="timeline-dot graduation"></div>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <span class="timeline-tag school">Education</span>
+            <span class="timeline-date">Expected Dec 2026</span>
+          </div>
+          <h3>B.S. Data Science</h3>
+          <h4>Brigham Young University–Idaho · 4.0 GPA</h4>
+          <p class="timeline-coursework"><strong>Relevant coursework:</strong></p>
+          <div class="course-grid">
+            <span class="course">CSE450 · Machine Learning</span>
+            <span class="course">DS460 · Big Data Analytics</span>
+            <span class="course">DS350 · Data Wrangling & Viz</span>
+            <span class="course">MATH425 · Applied Linear Regression</span>
+            <span class="course">MATH221D · Statistics with R</span>
+            <span class="course">ITM220 · SQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section reveal">
+    <div class="section-header">
+      <span class="section-number">04</span>
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-list">
+      <article class="project">
+        <div class="project-tag">Ecommerce Analytics</div>
+        <h3>Rich Floral Studios Analytics Platform</h3>
+        <p>
+          Built an analytics platform for a small Etsy business — tracking orders, due dates,
+          revenue, and product performance. KPI dashboards drove real business decisions and
+          inspired the broader vision behind Cronk.
+        </p>
+        <ul class="project-meta">
+          <li><i class="fas fa-database"></i> Order tracking</li>
+          <li><i class="fas fa-coins"></i> Revenue trends</li>
+          <li><i class="fas fa-trophy"></i> Best-seller analysis</li>
+          <li><i class="fas fa-comments"></i> AI chatbot exploration</li>
+        </ul>
+      </article>
+
+      <article class="project">
+        <div class="project-tag">AI · NLP</div>
+        <h3>AI Business Analytics Chatbot</h3>
+        <p>
+          A natural-language interface for ecommerce order data. Ask questions like
+          <em>"What were our best sellers this month?"</em> or
+          <em>"Generate a graph of revenue over time"</em> and get back real answers.
+        </p>
+        <ul class="project-meta">
+          <li><i class="fas fa-brain"></i> NLP query parsing</li>
+          <li><i class="fas fa-chart-line"></i> Auto-generated charts</li>
+          <li><i class="fas fa-server"></i> Data engineering</li>
+        </ul>
+      </article>
+
+      <article class="project">
+        <div class="project-tag">Machine Learning</div>
+        <h3>Song Popularity Prediction</h3>
+        <p>
+          Academic research project analyzing which quantifiable factors influence a song's
+          popularity in America — built in R using Random Forest and feature engineering.
+        </p>
+        <ul class="project-meta">
+          <li><i class="fas fa-tree"></i> Random Forest</li>
+          <li><i class="fas fa-flask"></i> R + Quarto</li>
+          <li><i class="fas fa-chart-pie"></i> Statistical analysis</li>
+        </ul>
+      </article>
+
+      <article class="project">
+        <div class="project-tag">Cloud · Pipelines</div>
+        <h3>Cloud Data Pipelines & Dashboards</h3>
+        <p>
+          Production data pipelines using BigQuery, Streamlit, Docker, and Google Cloud Run.
+          Daily KPI workflows for revenue, transactions, and top-performing products.
+        </p>
+        <ul class="project-meta">
+          <li><i class="fab fa-google"></i> BigQuery</li>
+          <li><i class="fab fa-docker"></i> Docker</li>
+          <li><i class="fas fa-cloud"></i> Cloud Run</li>
+          <li><i class="fas fa-stream"></i> Streamlit</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- Tech Stack Section -->
+  <section id="stack" class="section reveal">
+    <div class="section-header">
+      <span class="section-number">05</span>
+      <h2 class="section-title">Tech Stack</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="stack-grid">
+      <div class="stack-category">
+        <h4><i class="fas fa-code"></i> Languages</h4>
+        <div class="stack-tags">
+          <span class="tag">Python</span>
+          <span class="tag">R</span>
+          <span class="tag">SQL</span>
+          <span class="tag">Java</span>
+          <span class="tag">Go</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">TypeScript</span>
+        </div>
+      </div>
+      <div class="stack-category">
+        <h4><i class="fas fa-chart-area"></i> Data & ML</h4>
+        <div class="stack-tags">
+          <span class="tag">pandas</span>
+          <span class="tag">Polars</span>
+          <span class="tag">scikit-learn</span>
+          <span class="tag">XGBoost</span>
+          <span class="tag">Random Forest</span>
+          <span class="tag">Quarto</span>
+          <span class="tag">PySpark</span>
+        </div>
+      </div>
+      <div class="stack-category">
+        <h4><i class="fas fa-chart-pie"></i> BI & Visualization</h4>
+        <div class="stack-tags">
+          <span class="tag">Power BI</span>
+          <span class="tag">Tableau</span>
+          <span class="tag">Excel</span>
+          <span class="tag">Streamlit</span>
+          <span class="tag">Data Storytelling</span>
+        </div>
+      </div>
+      <div class="stack-category">
+        <h4><i class="fas fa-laptop-code"></i> Web & App</h4>
+        <div class="stack-tags">
+          <span class="tag">React</span>
+          <span class="tag">React Native</span>
+          <span class="tag">Expo</span>
+          <span class="tag">HTML/CSS</span>
+        </div>
+      </div>
+      <div class="stack-category">
+        <h4><i class="fas fa-cloud"></i> Cloud & Data</h4>
+        <div class="stack-tags">
+          <span class="tag">AWS DynamoDB</span>
+          <span class="tag">BigQuery</span>
+          <span class="tag">Cloud Run</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Databricks</span>
+        </div>
+      </div>
+      <div class="stack-category">
+        <h4><i class="fas fa-shopping-bag"></i> Ecommerce</h4>
+        <div class="stack-tags">
+          <span class="tag">Shopify Apps</span>
+          <span class="tag">Etsy API</span>
+          <span class="tag">Webhooks</span>
+          <span class="tag">Fulfillment</span>
+        </div>
+      </div>
+      <div class="stack-category">
+        <h4><i class="fas fa-tools"></i> Dev & Workflow</h4>
+        <div class="stack-tags">
+          <span class="tag">Git</span>
+          <span class="tag">GitHub</span>
+          <span class="tag">Jira</span>
+          <span class="tag">VS Code</span>
+          <span class="tag">AI Coding Tools</span>
+          <span class="tag">UAT</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fun Facts -->
+  <section class="section reveal">
+    <div class="section-header">
+      <span class="section-number">06</span>
+      <h2 class="section-title">Beyond the Code</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="facts-grid">
+      <div class="fact">
+        <div class="fact-icon">🌎</div>
+        <h4>Paraguay Mission</h4>
+        <p>Served two years and came back fluent in Spanish.</p>
+      </div>
+      <div class="fact">
+        <div class="fact-icon">🏈</div>
+        <h4>Sports Fanatic</h4>
+        <p>NFL, NBA, March Madness — I'm watching it all.</p>
+      </div>
+      <div class="fact">
+        <div class="fact-icon">📚</div>
+        <h4>Lifelong Learner</h4>
+        <p>History, economics, cities, business, random statistics.</p>
+      </div>
+      <div class="fact">
+        <div class="fact-icon">💡</div>
+        <h4>Idea → Software</h4>
+        <p>I love turning business ideas into real working products.</p>
+      </div>
+      <div class="fact">
+        <div class="fact-icon">📊</div>
+        <h4>Data for Daily Life</h4>
+        <p>Using data to answer everyday questions — for fun.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Goals Section -->
+  <section class="section reveal">
+    <div class="section-header">
+      <span class="section-number">07</span>
+      <h2 class="section-title">Current Goals</h2>
+      <div class="section-line"></div>
+    </div>
+    <ul class="goals-list">
+      <li><span class="goal-marker">→</span> Graduate from BYU–Idaho in Data Science (Dec 2026)</li>
+      <li><span class="goal-marker">→</span> Grow Cronk into a serious ecommerce software company</li>
+      <li><span class="goal-marker">→</span> Level up as a full-stack developer</li>
+      <li><span class="goal-marker">→</span> Become stronger in machine learning and AI engineering</li>
+      <li><span class="goal-marker">→</span> Build useful tools for real businesses</li>
+      <li><span class="goal-marker">→</span> Develop as a leader, entrepreneur, and problem solver</li>
+      <li><span class="goal-marker">→</span> Keep improving — physically, mentally, spiritually, professionally</li>
+    </ul>
+  </section>
+
+  <!-- Latest from the Blog -->
+  <section id="blog-preview" class="section reveal">
+    <div class="section-header">
+      <span class="section-number">08</span>
+      <h2 class="section-title">From the Blog</h2>
+      <div class="section-line"></div>
+      <a href="blog.html" class="section-link">View all <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <a href="blog-ai-ecommerce-demand-production.html" class="blog-preview-card">
+      <div class="blog-preview-meta">
+        <span class="blog-tag">AI Strategy</span>
+        <span class="blog-tag-secondary">E-Commerce</span>
+        <span class="blog-date"><i class="far fa-calendar"></i> June 2026</span>
+        <span class="blog-readtime"><i class="far fa-clock"></i> 5 min read</span>
+      </div>
+      <h3>How AI Is Changing E-Commerce From Demand to Production</h3>
+      <p>
+        AI is starting to connect demand sensing, product decisions, supplier planning,
+        and production into one smarter operating loop for online businesses.
+      </p>
+      <span class="blog-card-cta">Read post <i class="fas fa-arrow-right"></i></span>
+    </a>
+
+    <a href="blog-costs-incorrect-demand-predictions.html" class="blog-preview-card">
+      <div class="blog-preview-meta">
+        <span class="blog-tag">Forecasting</span>
+        <span class="blog-tag-secondary">Inventory</span>
+        <span class="blog-date"><i class="far fa-calendar"></i> June 2026</span>
+        <span class="blog-readtime"><i class="far fa-clock"></i> 5 min read</span>
+      </div>
+      <h3>Modeling the Costs of Incorrect Demand Predictions</h3>
+      <p>
+        Forecast errors are not just model metrics. They become stockouts, trapped cash,
+        excess inventory, missed revenue, and different kinds of business risk.
+      </p>
+      <span class="blog-card-cta">Read post <i class="fas fa-arrow-right"></i></span>
+    </a>
+
+    <a href="blog-prophet-ecommerce-demand.html" class="blog-preview-card">
+      <div class="blog-preview-meta">
+        <span class="blog-tag">Prophet</span>
+        <span class="blog-tag-secondary">Time Series</span>
+        <span class="blog-date"><i class="far fa-calendar"></i> June 2026</span>
+        <span class="blog-readtime"><i class="far fa-clock"></i> 5 min read</span>
+      </div>
+      <h3>The Power of the Prophet Package in Tailoring Demand Predictions to Your E-Commerce Market</h3>
+      <p>
+        Prophet can help model trend, seasonality, holidays, and uncertainty in a way
+        that is interpretable enough for real inventory planning.
+      </p>
+      <span class="blog-card-cta">Read post <i class="fas fa-arrow-right"></i></span>
+    </a>
+
+    <a href="blog-inventory-forecasting.html" class="blog-preview-card">
+      <div class="blog-preview-meta">
+        <span class="blog-tag">Senior Project</span>
+        <span class="blog-tag-secondary">Machine Learning</span>
+        <span class="blog-date"><i class="far fa-calendar"></i> April 2026</span>
+        <span class="blog-readtime"><i class="far fa-clock"></i> 6 min read</span>
+      </div>
+      <h3>Using Machine Learning to Improve Inventory Forecasting for E-Commerce Businesses</h3>
+      <p>
+        For my senior project I'm building a Python package that takes historical order data,
+        creates SKU-level demand forecasts, and answers a simple but important question:
+        <em>Should this product be reordered now?</em>
+      </p>
+      <span class="blog-card-cta">Read post <i class="fas fa-arrow-right"></i></span>
+    </a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section reveal contact-section">
+    <div class="contact-card">
+      <div class="contact-glow"></div>
+      <h2>Let's build something.</h2>
+      <p>
+        Always open to talking about data, ecommerce, AI, startups, or just trading ideas.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:ethanshaw707@gmail.com" class="contact-link">
+          <i class="fas fa-envelope"></i>
+          <span>ethanshaw707@gmail.com</span>
+        </a>
+        <a href="tel:+12085096038" class="contact-link">
+          <i class="fas fa-phone"></i>
+          <span>(208) 509-6038</span>
+        </a>
+        <a href="resume.html" class="contact-link">
+          <i class="fas fa-file-lines"></i>
+          <span>Résumé</span>
+        </a>
+        <a href="https://github.com/ethanshaw707" class="contact-link" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+          <span>@ethanshaw707</span>
+        </a>
+        <a href="https://linkedin.com/" class="contact-link" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+      <p class="contact-location"><i class="fas fa-location-dot"></i> Meridian, ID</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Built with <span class="heart">♥</span> by Ethan Shaw — <span id="year"></span></p>
+    <p class="footer-quote">"Solve real problems. Build useful products. Improve every day."</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

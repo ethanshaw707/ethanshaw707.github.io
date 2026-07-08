@@ -222,18 +222,14 @@ ul { list-style: none; }
   line-height: 0.95;
   letter-spacing: -0.04em;
   margin-bottom: 24px;
-  background: var(--gradient);
-  background-size: 200% 200%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  animation: gradientShift 8s ease infinite;
+  color: var(--text);
   text-shadow: 0 0 60px rgba(244, 185, 66, 0.15);
   filter: drop-shadow(0 4px 24px rgba(0, 0, 0, 0.4));
 }
 
 .name-letter {
   display: inline-block;
+  color: inherit;
   opacity: 0;
   transform: translateY(40px) rotateX(-30deg);
   animation: letterReveal 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;

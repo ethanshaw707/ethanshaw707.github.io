@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Power of Prophet for E-Commerce Demand Prediction — Ethan Shaw</title>
+  <meta name="description" content="How Prophet can help tailor demand predictions to e-commerce markets through trend, seasonality, holidays, and interpretable forecasting." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css?v=20260610" />
+  <link rel="stylesheet" href="blog.css?v=20260610" />
+</head>
+<body>
+  <div class="bg-gradient"></div>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-bracket">&lt;</span>ES<span class="logo-bracket">/&gt;</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#experience">Experience</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="resume.html">Résumé</a></li>
+      <li><a href="blog.html" class="active">Blog</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="post-page">
+    <a href="blog.html" class="post-back">
+      <i class="fas fa-arrow-left"></i> All posts
+    </a>
+
+    <header class="post-header">
+      <div class="post-meta-top">
+        <span class="blog-tag">Prophet</span>
+        <span class="blog-tag-secondary">Time Series</span>
+      </div>
+      <h1 class="post-title">The Power of the Prophet Package in Tailoring Demand Predictions to Your E-Commerce Market</h1>
+      <div class="post-byline">
+        <div class="post-author">
+          <img src="ethan-profile.jpeg" alt="Ethan Shaw" />
+          <div>
+            <strong>Ethan Shaw</strong>
+            <span>BYU–Idaho · Data Science</span>
+          </div>
+        </div>
+        <div class="post-meta-stats">
+          <span><i class="far fa-calendar"></i> June 2026</span>
+          <span><i class="far fa-clock"></i> 5 min read</span>
+        </div>
+      </div>
+    </header>
+
+    <article class="post-body">
+      <p class="post-lead">
+        Prophet is powerful for e-commerce forecasting because it gives a practical way to
+        model trend, seasonality, holidays, and uncertainty without needing to build every
+        time-series component from scratch.
+      </p>
+
+      <p>
+        E-commerce demand is rarely flat. Products grow, slow down, spike during promotions,
+        and respond to seasonal buying patterns. A simple moving average can be useful, but
+        it often misses the structure behind the demand. Prophet is useful because it is
+        designed around the idea that a forecast can be broken into understandable pieces.
+      </p>
+
+      <h2>Why Prophet Fits E-Commerce Problems</h2>
+
+      <p>
+        A lot of e-commerce forecasting happens at the weekly or daily level. Stores want to
+        know how much demand to expect next week, next month, or during a supplier lead time.
+        Prophet works well in this setting because it can model long-term trend and recurring
+        seasonal behavior at the same time.
+      </p>
+
+      <p>
+        That matters for categories where demand changes throughout the year. Holiday
+        products, gifts, apparel, decorations, and personalized items often have patterns
+        that repeat but do not stay perfectly constant. Prophet gives the model a way to
+        learn those recurring movements.
+      </p>
+
+      <h2>Trend, Seasonality, and Events</h2>
+
+      <p>
+        One of Prophet's strengths is interpretability. Instead of producing only a final
+        number, Prophet separates the forecast into components such as trend and seasonality.
+        For a business owner, that can be easier to trust than a black-box prediction.
+      </p>
+
+      <p>
+        This is especially useful when explaining why a reorder recommendation changed. If a
+        forecast rises because the seasonal component is increasing before a known busy
+        period, that is a very different story than a forecast rising because the long-term
+        trend is accelerating.
+      </p>
+
+      <p>
+        Prophet can also include holidays or special events. For e-commerce, that can mean
+        modeling periods around Black Friday, Christmas, Mother's Day, back-to-school season,
+        or business-specific promotional events.
+      </p>
+
+      <h2>Tailoring Forecasts to a Market</h2>
+
+      <p>
+        The word "market" matters. A candle shop, a print-on-demand brand, and an electronics
+        seller do not behave the same way. Even inside one store, product groups may have
+        different demand patterns. Prophet can be fit separately for different categories,
+        product families, or high-volume SKUs so the model can learn patterns that are more
+        specific than storewide sales.
+      </p>
+
+      <p>
+        In my senior project, this idea shows up through product-family forecasting. Instead
+        of assuming every SKU has enough history to support a strong individual model, demand
+        can be grouped into meaningful categories and then allocated back down to individual
+        styles. Prophet is a strong candidate for those grouped time series because the
+        groups often have enough signal to learn trend and seasonality.
+      </p>
+
+      <blockquote class="post-quote">
+        Prophet is most useful when the business has patterns worth learning and enough
+        history for those patterns to show up.
+      </blockquote>
+
+      <h2>Where Prophet Needs Care</h2>
+
+      <p>
+        Prophet is not magic. Sparse SKUs, sudden product launches, stockout periods, and
+        business closures can confuse any forecasting method. If a product did not sell
+        because it was out of stock, the model may think demand dropped naturally unless the
+        data is handled carefully.
+      </p>
+
+      <p>
+        That is why preprocessing matters. Before fitting a Prophet model, I want to know
+        whether the history contains true demand, missing data, stockouts, or inactive
+        periods. The model can only learn from the story the data tells it.
+      </p>
+
+      <div class="post-steps">
+        <div class="post-step">
+          <span class="post-step-num">01</span>
+          <div>
+            <h3>Use Prophet where history is strong</h3>
+            <p>Fit it on product groups or SKUs with enough observations to learn seasonality.</p>
+          </div>
+        </div>
+        <div class="post-step">
+          <span class="post-step-num">02</span>
+          <div>
+            <h3>Mark unusual business periods</h3>
+            <p>Closures, stockouts, and promotions should be treated intentionally, not blindly.</p>
+          </div>
+        </div>
+        <div class="post-step">
+          <span class="post-step-num">03</span>
+          <div>
+            <h3>Compare against simpler baselines</h3>
+            <p>A good forecast should beat a practical benchmark before it earns trust.</p>
+          </div>
+        </div>
+      </div>
+
+      <h2>The Best Role for Prophet</h2>
+
+      <p>
+        I see Prophet as a strong middle ground. It is more flexible than a basic seasonal
+        average, but more interpretable than many machine learning models. For an e-commerce
+        business, that combination is valuable because forecasts need to be trusted by people
+        making real purchasing decisions.
+      </p>
+
+      <p>
+        The best forecasting system may not use one model for everything. Prophet might be
+        ideal for seasonal product families, while machine learning models may perform
+        better when many SKU-level features are available. The power is in comparing models,
+        understanding where each one works, and connecting the forecast back to inventory
+        decisions.
+      </p>
+    </article>
+
+    <footer class="post-footer">
+      <div class="post-share">
+        <p>Thanks for reading.</p>
+        <div class="post-share-actions">
+          <a href="blog.html" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> More posts
+          </a>
+          <a href="index.html#contact" class="btn btn-primary">
+            <i class="fas fa-envelope"></i> Get in touch
+          </a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <footer class="footer">
+    <p>Built with <span class="heart">♥</span> by Ethan Shaw — <span id="year"></span></p>
+    <p class="footer-quote">"Solve real problems. Build useful products. Improve every day."</p>
+  </footer>
+
+  <script src="script.js?v=20260610"></script>
+</body>
+</html>

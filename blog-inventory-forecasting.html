@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Using Machine Learning to Improve Inventory Forecasting — Ethan Shaw</title>
+  <meta name="description" content="Senior project: building a Python package that forecasts SKU-level demand and helps e-commerce businesses make better reorder decisions." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css?v=20260610" />
+  <link rel="stylesheet" href="blog.css?v=20260610" />
+</head>
+<body>
+  <div class="bg-gradient"></div>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-bracket">&lt;</span>ES<span class="logo-bracket">/&gt;</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#experience">Experience</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="resume.html">Résumé</a></li>
+      <li><a href="blog.html" class="active">Blog</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="post-page">
+    <a href="blog.html" class="post-back">
+      <i class="fas fa-arrow-left"></i> All posts
+    </a>
+
+    <header class="post-header">
+      <div class="post-meta-top">
+        <span class="blog-tag">Senior Project</span>
+        <span class="blog-tag-secondary">Machine Learning</span>
+      </div>
+      <h1 class="post-title">
+        Using Machine Learning to Improve Inventory Forecasting for E-Commerce Businesses
+      </h1>
+      <div class="post-byline">
+        <div class="post-author">
+          <img src="ethan-profile.jpeg" alt="Ethan Shaw" />
+          <div>
+            <strong>Ethan Shaw</strong>
+            <span>BYU–Idaho · Data Science</span>
+          </div>
+        </div>
+        <div class="post-meta-stats">
+          <span><i class="far fa-calendar"></i> April 2026</span>
+          <span><i class="far fa-clock"></i> 6 min read</span>
+        </div>
+      </div>
+    </header>
+
+    <article class="post-body">
+      <p class="post-lead">
+        For my senior project, I wanted to choose something that connects directly to my
+        interests, my degree, and the business work I am already doing. I am currently in my
+        final semester at BYU-Idaho, studying data science, and I am especially interested in
+        machine learning, advanced analytics, artificial intelligence, and how these tools can
+        solve real business problems.
+      </p>
+
+      <p>
+        Over the past several months, I have been working on a business with a friend that
+        helps e-commerce businesses improve their operations. Through that experience, I have
+        seen that one of the biggest challenges many online businesses face is inventory
+        planning. Ordering too much inventory can tie up cash and create storage problems.
+        Ordering too little inventory can lead to stockouts, missed sales, unhappy customers,
+        and slower growth.
+      </p>
+
+      <p>
+        This problem becomes even more difficult because many e-commerce businesses order
+        inventory from overseas suppliers, often from China. That means inventory may take
+        two or three months to arrive after it is ordered. Because of that long lead time,
+        businesses cannot simply wait until they are almost out of stock to place another
+        order. They need to predict future demand early enough to make good purchasing
+        decisions. My senior project is focused on whether machine learning and data science
+        forecasting methods can improve SKU-level demand prediction and help e-commerce
+        businesses know when to reorder inventory.
+      </p>
+
+      <h2>The Problem: Inventory Decisions Are Expensive to Get Wrong</h2>
+
+      <p>
+        In e-commerce, each product usually has a SKU, which stands for stock keeping unit.
+        A SKU is basically an identification code for a specific product or variation of a
+        product. For example, if a store sells a candle in three sizes and five scents, each
+        combination may have a different SKU.
+      </p>
+
+      <p>
+        The challenge is that every SKU may have a different demand pattern. Some products
+        sell consistently every week. Others sell heavily during certain seasons. Some
+        products may sell randomly, with long periods of no sales followed by sudden spikes.
+        Because of this, it is not enough to simply look at total store sales. Businesses
+        need to understand demand at the SKU level.
+      </p>
+
+      <p>
+        If a business guesses wrong, the consequences can be serious. If they order too much,
+        they may have thousands of dollars stuck in inventory that does not move. If they
+        order too little, they may run out of a popular product and lose revenue. For small
+        businesses, either mistake can be painful.
+      </p>
+
+      <p>
+        This is why I believe inventory forecasting is a valuable problem to study. It
+        combines data science, business strategy, and real-world decision-making.
+      </p>
+
+      <h2>My Project Goal</h2>
+
+      <p>The main question I want to answer is:</p>
+
+      <blockquote class="post-quote">
+        Will machine learning and time-series forecasting methods improve SKU-level demand
+        prediction and help e-commerce businesses make better inventory purchasing decisions?
+      </blockquote>
+
+      <p>
+        To explore this question, I plan to build a Python package that takes historical
+        order data, creates demand forecasts, and generates reorder recommendations. The
+        package will be designed to help businesses estimate when they should reorder a
+        product before they run out of stock.
+      </p>
+
+      <p>
+        The final output of the project will focus on a simple but important decision:
+        <strong>Should this product be reordered now?</strong>
+      </p>
+
+      <p>In the project, this will be represented as a binary prediction:</p>
+
+      <ul class="post-list">
+        <li><strong>1</strong> = Yes, reorder</li>
+        <li><strong>0</strong> = No, do not reorder yet</li>
+      </ul>
+
+      <p>
+        This makes the project practical because the goal is not just to create a forecast
+        chart. The goal is to create a tool that can help a business make a real decision.
+      </p>
+
+      <h2>What I Plan to Build</h2>
+
+      <p>
+        The main deliverable for this project will be a Python package. This package will
+        take raw order history data and turn it into useful forecasting and inventory
+        recommendations. The package will include several major steps.
+      </p>
+
+      <div class="post-steps">
+        <div class="post-step">
+          <span class="post-step-num">01</span>
+          <div>
+            <h3>Ingest and clean raw order data</h3>
+            <p>
+              E-commerce data can be messy, especially when it comes from different platforms
+              or clients. The data will need to be organized into time-series datasets, where
+              each SKU has its own sales history over time.
+            </p>
+          </div>
+        </div>
+
+        <div class="post-step">
+          <span class="post-step-num">02</span>
+          <div>
+            <h3>Engineer features that capture demand patterns</h3>
+            <p>
+              Lag variables, rolling averages, seasonal indicators, month-over-month changes.
+              A model may need to know how many units sold last week, the average sold over
+              the past month, or whether the product tends to sell more in a certain season.
+            </p>
+          </div>
+        </div>
+
+        <div class="post-step">
+          <span class="post-step-num">03</span>
+          <div>
+            <h3>Test multiple forecasting methods</h3>
+            <p>
+              I want to compare traditional statistical forecasting methods with machine
+              learning models like random forest and gradient boosting, and see which methods
+              perform best for different types of products.
+            </p>
+          </div>
+        </div>
+
+        <div class="post-step">
+          <span class="post-step-num">04</span>
+          <div>
+            <h3>Classify products by demand behavior</h3>
+            <p>
+              Some products have smooth demand. Others are erratic or intermittent. One
+              forecasting model may work well for steady-demand SKUs but perform poorly on
+              ones that only sell occasionally.
+            </p>
+          </div>
+        </div>
+
+        <div class="post-step">
+          <span class="post-step-num">05</span>
+          <div>
+            <h3>Calculate inventory metrics</h3>
+            <p>
+              Reorder points, safety stock, and stockout probability — the metrics that
+              translate a forecast into an actual business recommendation.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2>Why This Project Matters</h2>
+
+      <p>
+        This project matters because it addresses a real problem that many e-commerce
+        businesses face. Inventory forecasting is not just a technical problem. It directly
+        affects cash flow, customer satisfaction, fulfillment speed, and business growth.
+      </p>
+
+      <p>
+        For small businesses especially, better forecasting can make a major difference. A
+        large company may be able to absorb inventory mistakes more easily, but a small
+        business may not have that same flexibility. If a small business spends too much
+        money on the wrong inventory, it may limit its ability to invest in marketing, new
+        products, or better operations.
+      </p>
+
+      <p>
+        At the same time, running out of inventory can be just as damaging. If a product is
+        selling well and the business runs out, customers may buy from competitors instead.
+        The business loses revenue and may lose repeat customers.
+      </p>
+
+      <p>
+        By using data science and machine learning, I hope to create a tool that helps
+        businesses make smarter decisions <em>before</em> inventory problems happen.
+      </p>
+
+      <h2>What I Hope to Learn</h2>
+
+      <p>
+        Through this project, I hope to strengthen my understanding of time-series
+        forecasting, machine learning, and inventory analytics. I also want to learn more
+        about best practices in demand forecasting, including safety stock, reorder points,
+        and how to handle seasonal or intermittent demand.
+      </p>
+
+      <p>
+        This project will also help me connect my data science education to the real
+        business problems I want to solve after college. Instead of building a project only
+        for a class, I want this senior project to become something that could eventually be
+        used as a feature in client-facing software.
+      </p>
+
+      <h2>Conclusion</h2>
+
+      <p>
+        My senior project will focus on building a machine learning and data science
+        forecasting package for e-commerce inventory planning. The goal is to help
+        businesses predict SKU-level demand and make better reorder decisions.
+      </p>
+
+      <p>
+        The project will involve cleaning order data, creating time-series features,
+        comparing forecasting models, classifying demand patterns, and calculating inventory
+        metrics. Ultimately, I want to create a practical tool that helps answer a simple
+        but important question:
+      </p>
+
+      <blockquote class="post-quote">Should this product be reordered now?</blockquote>
+
+      <p>
+        I am excited about this project because it connects my interests in machine
+        learning, analytics, AI, and entrepreneurship. It also gives me the opportunity to
+        solve a real problem that affects e-commerce businesses every day.
+      </p>
+    </article>
+
+    <footer class="post-footer">
+      <div class="post-share">
+        <p>Thanks for reading.</p>
+        <div class="post-share-actions">
+          <a href="blog.html" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> More posts
+          </a>
+          <a href="index.html#contact" class="btn btn-primary">
+            <i class="fas fa-envelope"></i> Get in touch
+          </a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <footer class="footer">
+    <p>Built with <span class="heart">♥</span> by Ethan Shaw — <span id="year"></span></p>
+    <p class="footer-quote">"Solve real problems. Build useful products. Improve every day."</p>
+  </footer>
+
+  <script src="script.js?v=20260610"></script>
+</body>
+</html>

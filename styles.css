@@ -900,6 +900,23 @@ ul { list-style: none; }
   font-size: 11px;
 }
 
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  color: var(--accent-1);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 600;
+  transition: color var(--transition), gap var(--transition);
+}
+
+.project-link:hover {
+  gap: 12px;
+  color: var(--accent-4);
+}
+
 /* ================================
    Tech Stack
 ================================ */
@@ -1445,4 +1462,3 @@ ul { list-style: none; }
 }
 
 .contact-location i { color: var(--accent-3); }
-
